@@ -1,0 +1,61 @@
+<h1 id="title">2020 U.S. Election Survey Form</h1>
+<div class="container" id="main">
+ <p class id="description">Let us know how you intend to vote during this election cycle</p>
+  <form id="survey-form">
+  <div id="surveyform">
+    <label for="name" id="name-label">* Name: </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required></input>
+  <label for="email" id="email-label">* Email: </label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required></input>
+  <label for="number" id="number-label">* Age: 
+    </label>
+<input type="number" id="number" name="number" min="18" max="100" placeholder="Enter your age" required></input>
+<label for="occupation" id="occupation">Which option best describes your current role?  </label>
+   <select id="dropdown">
+     <option value="blank"></option>
+     <option value="student">Student</option>
+     <option value="fulltimejob">Employed</option>
+     <option value="unemployed">Unemployed</option>
+     <option value="prefernottosay">Prefer Not to Say</option>
+     <option value="other">Other</option>
+  </select>
+<p id="candidate-label"> Please let us know which candidate do you plan to vote for: </p>
+    <div id="candidate">
+    <label for="dem">
+      <input id="dem" value="berniesanders" type="radio" name="candidate">Bernie Sanders
+    </label>
+    <label for="rep">
+      <input id="rep" value="donaldtrump" type="radio" name="candidate">Donald Trump
+    </label>
+    <label for="third">
+      <input id="third" type="radio" value="thirdparty" name="candidate">Third Party
+    </label>
+</div>
+<label for="party" id="party-label">Of which political party you currently are a member?</label>
+    <select id="party">
+      <option value="blank"></option>
+      <option value="democrat">Democrat</option>
+      <option value="republican">Republican</option>
+      <option value="libertarian">Libertarian</option>
+      <option value="green">Green</option>
+      <option value="ind">Independent/Not Affiliated</option>
+     </select>
+<p id="issue-label">Issues which currently concern you.<br>
+(Check all that apply)</p>
+<div id="issue">
+      <label for="economy"><input id="economy" type="checkbox" name="issue" value="economy">Economy/Jobs</label><br>
+      <label for="terrorism"><input id="terrorism" type="checkbox" name="issue" value="terrorism">Terrorism/Foreign Policy</label><br>
+      <label for = "environ"><input id="environ" type="checkbox" name="issue" value="environment">Environment/Climate Change</label><br>
+      <label for="budget"><input id="budget" type="checkbox" name="issue" value="budget">Federal Budget/Deficit</label><br>
+      <label for="income"><input id="income" type="checkbox" name="issue" value="inequality">Income/Wealth Inequality</label><br>
+      <label for="healthcare"><input id="healthcare" type="checkbox" name="issue" value="healthcare">Healthcare</label><br>
+      <label for="immigration"><input id="immigration" type="checkbox" name="issue" value="immigration">Immigration</label><br>
+      <label for="guns"><input id="guns" type="checkbox" name="issue" value="guns">Guns</label><br>
+</div>
+      <label for ="comment" id="comment-label">Any Other Comments?</label><textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+</div>
+<button id="submit">Submit</button>
+    </form>
+
+
+</div>
